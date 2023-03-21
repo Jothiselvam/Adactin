@@ -1,0 +1,23 @@
+package com.Miniproject;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.project.Browser_Launch;
+
+public class Makemytrip_Launch extends Browser_Launch {
+	public static void main(String[] args) throws InterruptedException {
+		getDriver();
+		geturl("https://www.makemytrip.com/flights/");
+		maximize();
+		
+		WebElement findElement = driver.findElement(By.xpath("//a[text()='Search']"));
+		
+		Thread.sleep(2000);
+		click(findElement);
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,40 @@
+package com.collection;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class A {
+	
+	public static void main(String[]args) {
+		List<Object>a=new ArrayList<Object>();
+		//add
+		a.add("ECE");
+		a.add(30);
+		a.add("Civil");
+		a.add(40);
+		System.out.println(a);
+		
+	//	List<Object>b=new LinkedList<Object>();
+	//	b.add("EEE");
+	//	b.add(30);
+	//	b.add("Mech");
+	//	b.add(40);
+	//	System.out.println(b);
+		
+		//size
+	   // System.out.println(a.size());
+	    
+	    //get
+	  //  System.out.println(a.get(1));
+	    
+	    //set
+		//Object set = a.set(0, "EEE");
+	    //System.out.println(a);
+		
+	    //remove
+		a.remove(0);
+	   System.out.println(a);
+	}
+
+}

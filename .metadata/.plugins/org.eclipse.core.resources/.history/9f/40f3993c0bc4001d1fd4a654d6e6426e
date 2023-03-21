@@ -1,0 +1,26 @@
+package com.Miniproject;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class Datadriven {
+	public static void main(String[] args) throws FileNotFoundException {
+		File f=new File("C:\\Users\\Admin\\eclipse-workspace\\Miniproject\\Excel\\Test.xlsx");
+		FileInputStream input=new FileInputStream(f);
+		Workbook wb=new XSSFWorkbook(input);
+		Sheet sheetAt=wb.getSheetAt(0);
+		Row row = sheetAt.getRow(0);
+		Cell cell=row.getcell(0);
+		
+		CellType ctype=cell.getCellType();
+		if(ctype.equals(CellType.STRING)) {
+			
+		}
+		
+		
+		
+		
+	}
+
+}

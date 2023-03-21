@@ -1,0 +1,17 @@
+package com.maths;
+import java.util.ArrayList;
+
+import java.util.List;
+public class List_Methods {
+	public static void main(String[] args) {
+		List <Integer> Bill1=new ArrayList<Integer>();
+       Bill1.add(10);
+       Bill1.add(20);
+       Bill1.add(30);
+       Bill1.add(40);
+       
+       System.out.println(Bill1);
+       int size = Bill1.size();
+       System.out.println("Size of Bill1 :" +size);
+}
+}

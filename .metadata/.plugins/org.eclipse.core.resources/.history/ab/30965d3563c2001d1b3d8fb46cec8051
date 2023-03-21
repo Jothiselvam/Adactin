@@ -1,0 +1,601 @@
+package com.maths;
+
+import java.util.Scanner;
+
+public class Switch_Task {
+	public static void main(String[] args) {
+			
+		for(int i=1;i<=12;i++) {
+			System.out.println("Select the month");
+			
+			Scanner a=new Scanner(System.in);
+			
+			int month1=a.nextInt();
+			System.out.println(month1);
+			for(int j=1;j<=7;j++) {
+				System.out.println("Select the day");
+			
+			
+			
+			Scanner b=new Scanner(System.in);
+			int day1 = b.nextInt();
+			System.out.println(day1);
+			switch (month1) {
+			
+				case 1:
+				{
+					System.out.println("January");
+				}
+			
+				switch (day1) {
+				
+				case 1:
+					
+				{
+					System.out.println("Sunday");
+				}
+				break;
+					
+					
+				case 2:
+				{
+					System.out.println("Monday");
+				}
+					break;
+				case 3:
+				{
+					System.out.println("Tuesday");
+				}
+				break;
+				case 4:
+				{
+					System.out.println("Wednesday");
+				}
+				break;
+				case 5:
+				{
+					System.out.println("Thursday");
+				}
+				break;
+				case 6:
+				{
+					System.out.println("Friday");
+				}
+				break;
+				case 7:
+				{
+					System.out.println("Saturday");
+				}
+					}
+					break;
+				
+				
+
+				case 2:
+				{
+					System.out.println("February");
+				}
+switch (day1) {
+				
+				case 1:
+					
+				{
+					System.out.println("Sunday");
+				}
+				break;
+					
+					
+				case 2:
+				{
+					System.out.println("Monday");
+				}
+					break;
+				case 3:
+				{
+					System.out.println("Tuesday");
+				}
+				break;
+				case 4:
+				{
+					System.out.println("Wednesday");
+				}
+				break;
+				case 5:
+				{
+					System.out.println("Thursday");
+				}
+				break;
+				case 6:
+				{
+					System.out.println("Friday");
+				}
+				break;
+				case 7:
+				{
+					System.out.println("Saturday");
+				}
+					}
+					break;
+				
+				case 3:
+				{
+					System.out.println("March");
+				}
+switch (day1) {
+				
+				case 1:
+					
+				{
+					System.out.println("Sunday");
+				}
+				break;
+					
+					
+				case 2:
+				{
+					System.out.println("Monday");
+				}
+					break;
+				case 3:
+				{
+					System.out.println("Tuesday");
+				}
+				break;
+				case 4:
+				{
+					System.out.println("Wednesday");
+				}
+				break;
+				case 5:
+				{
+					System.out.println("Thursday");
+				}
+				break;
+				case 6:
+				{
+					System.out.println("Friday");
+				}
+				break;
+				case 7:
+				{
+					System.out.println("Saturday");
+				}
+					}
+					break;
+				
+				
+				
+				case 4:
+				{
+					System.out.println("April");
+				}
+switch (day1) {
+				
+				case 1:
+					
+				{
+					System.out.println("Sunday");
+				}
+				break;
+					
+					
+				case 2:
+				{
+					System.out.println("Monday");
+				}
+					break;
+				case 3:
+				{
+					System.out.println("Tuesday");
+				}
+				break;
+				case 4:
+				{
+					System.out.println("Wednesday");
+				}
+				break;
+				case 5:
+				{
+					System.out.println("Thursday");
+				}
+				break;
+				case 6:
+				{
+					System.out.println("Friday");
+				}
+				break;
+				case 7:
+				{
+					System.out.println("Saturday");
+				}
+					}
+					break;
+				
+				
+				case 5:
+				{
+					System.out.println("May");
+				}
+switch (day1) {
+				
+				case 1:
+					
+				{
+					System.out.println("Sunday");
+				}
+				break;
+					
+					
+				case 2:
+				{
+					System.out.println("Monday");
+				}
+					break;
+				case 3:
+				{
+					System.out.println("Tuesday");
+				}
+				break;
+				case 4:
+				{
+					System.out.println("Wednesday");
+				}
+				break;
+				case 5:
+				{
+					System.out.println("Thursday");
+				}
+				break;
+				case 6:
+				{
+					System.out.println("Friday");
+				}
+				break;
+				case 7:
+				{
+					System.out.println("Saturday");
+				}
+					}
+					break;
+				
+				
+				case 6:
+				{
+					System.out.println("June");
+				}
+switch (day1) {
+				
+				case 1:
+					
+				{
+					System.out.println("Sunday");
+				}
+				break;
+					
+					
+				case 2:
+				{
+					System.out.println("Monday");
+				}
+					break;
+				case 3:
+				{
+					System.out.println("Tuesday");
+				}
+				break;
+				case 4:
+				{
+					System.out.println("Wednesday");
+				}
+				break;
+				case 5:
+				{
+					System.out.println("Thursday");
+				}
+				break;
+				case 6:
+				{
+					System.out.println("Friday");
+				}
+				break;
+				case 7:
+				{
+					System.out.println("Saturday");
+				}
+					}
+					break;
+				
+				
+				
+				case 7:
+				{
+					System.out.println("July");
+				}
+switch (day1) {
+				
+				case 1:
+					
+				{
+					System.out.println("Sunday");
+				}
+				break;
+					
+					
+				case 2:
+				{
+					System.out.println("Monday");
+				}
+					break;
+				case 3:
+				{
+					System.out.println("Tuesday");
+				}
+				break;
+				case 4:
+				{
+					System.out.println("Wednesday");
+				}
+				break;
+				case 5:
+				{
+					System.out.println("Thursday");
+				}
+				break;
+				case 6:
+				{
+					System.out.println("Friday");
+				}
+				break;
+				case 7:
+				{
+					System.out.println("Saturday");
+				}
+					}
+					break;
+				
+				
+				case 8:
+				{
+					System.out.println("August");
+				}
+switch (day1) {
+				
+				case 1:
+					
+				{
+					System.out.println("Sunday");
+				}
+				break;
+					
+					
+				case 2:
+				{
+					System.out.println("Monday");
+				}
+					break;
+				case 3:
+				{
+					System.out.println("Tuesday");
+				}
+				break;
+				case 4:
+				{
+					System.out.println("Wednesday");
+				}
+				break;
+				case 5:
+				{
+					System.out.println("Thursday");
+				}
+				break;
+				case 6:
+				{
+					System.out.println("Friday");
+				}
+				break;
+				case 7:
+				{
+					System.out.println("Saturday");
+				}
+					}
+					break;
+				
+				
+				case 9:
+				{
+					System.out.println("September");
+				}
+switch (day1) {
+				
+				case 1:
+					
+				{
+					System.out.println("Sunday");
+				}
+				break;
+					
+					
+				case 2:
+				{
+					System.out.println("Monday");
+				}
+					break;
+				case 3:
+				{
+					System.out.println("Tuesday");
+				}
+				break;
+				case 4:
+				{
+					System.out.println("Wednesday");
+				}
+				break;
+				case 5:
+				{
+					System.out.println("Thursday");
+				}
+				break;
+				case 6:
+				{
+					System.out.println("Friday");
+				}
+				break;
+				case 7:
+				{
+					System.out.println("Saturday");
+				}
+					}
+					break;
+				
+				
+				case 10:
+				{
+					System.out.println("October");
+				}
+switch (day1) {
+				
+				case 1:
+					
+				{
+					System.out.println("Sunday");
+				}
+				break;
+					
+					
+				case 2:
+				{
+					System.out.println("Monday");
+				}
+					break;
+				case 3:
+				{
+					System.out.println("Tuesday");
+				}
+				break;
+				case 4:
+				{
+					System.out.println("Wednesday");
+				}
+				break;
+				case 5:
+				{
+					System.out.println("Thursday");
+				}
+				break;
+				case 6:
+				{
+					System.out.println("Friday");
+				}
+				break;
+				case 7:
+				{
+					System.out.println("Saturday");
+				}
+					}
+					break;
+				
+				
+				
+				case 11:
+				{
+					System.out.println("November");
+				}
+switch (day1) {
+				
+				case 1:
+					
+				{
+					System.out.println("Sunday");
+				}
+				break;
+					
+					
+				case 2:
+				{
+					System.out.println("Monday");
+				}
+					break;
+				case 3:
+				{
+					System.out.println("Tuesday");
+				}
+				break;
+				case 4:
+				{
+					System.out.println("Wednesday");
+				}
+				break;
+				case 5:
+				{
+					System.out.println("Thursday");
+				}
+				break;
+				case 6:
+				{
+					System.out.println("Friday");
+				}
+				break;
+				case 7:
+				{
+					System.out.println("Saturday");
+				}
+					}
+					break;
+				
+				
+				case 12:
+				{
+					System.out.println("December");
+				}
+switch (day1) {
+				
+				case 1:
+					
+				{
+					System.out.println("Sunday");
+				}
+				break;
+					
+					
+				case 2:
+				{
+					System.out.println("Monday");
+				}
+					break;
+				case 3:
+				{
+					System.out.println("Tuesday");
+				}
+				break;
+				case 4:
+				{
+					System.out.println("Wednesday");
+				}
+				break;
+				case 5:
+				{
+					System.out.println("Thursday");
+				}
+				break;
+				case 6:
+				{
+					System.out.println("Friday");
+				}
+				break;
+				case 7:
+				{
+					System.out.println("Saturday");
+				}
+					}
+					break;
+				
+				}
+				}
+			
+		
+		}
+		}
+}
+	
+
+

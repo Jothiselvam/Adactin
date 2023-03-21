@@ -1,0 +1,21 @@
+package com.exception;
+import java.util.ArrayList;
+public class B {
+	public static void main(String[]args) {
+		//String s=null;       //Null pointer
+	//	System.out.println(s.length());
+		
+	//	int a[]=new int[3];   // Array index out of bound
+	//	a[0]=10;
+	//	a[1]=20;
+	//	a[2]=30;
+	//	System.out.println(a[3]);
+	
+	
+	String a[]=new String [3];
+	a[0]="Jothi";
+	a[1]="Sai";
+	a[2]="Arun";
+    System.out.println(a[4]);
+}
+}

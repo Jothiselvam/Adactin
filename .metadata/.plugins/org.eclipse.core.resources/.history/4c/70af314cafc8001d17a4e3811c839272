@@ -1,0 +1,12 @@
+package com.maths;
+
+public class Exception_Task {
+	public static void main(String[] args) {
+		
+	
+	String a="Null";
+	System.out.println(a);
+
+	}
+}
+

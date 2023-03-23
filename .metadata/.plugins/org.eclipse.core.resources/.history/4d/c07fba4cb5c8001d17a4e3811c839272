@@ -1,0 +1,52 @@
+package com.maths;
+
+public class Exception_Task {
+	//single try with multiple catch
+		private static void method1() {
+			try {
+				int a=3/0;
+				System.out.println(a);
+			} catch (ArithmeticException e) {
+				e.printStackTrace();
+			} catch (Exception e1) {
+				e1.printStackTrace();
+			}
+			finally {
+				System.out.println("Ignore Exception");
+			}
+		}
+		
+		//without catch
+	private static void method2() {
+			try {
+				int a=3/0;
+				System.out.println(a);
+			}
+			finally {
+				System.out.println("Ignore Exception");
+			}
+			
+			
+			
+		}
+	
+	//without try
+	private static void method3() {
+		
+			int a=3/0;
+			System.out.println(a);
+			catch (ArithmeticException e) {
+				e.printStackTrace();
+			} 
+		
+		finally {
+			System.out.println("Ignore Exception");
+		}
+public static void main(String[] args) {
+	
+	//method1();
+	method2();
+	
+}
+}
+

@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="com.constructor.ConstructorA"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.beans.JavaBean"/>
     <fullyQualifiedTypeName name="javax.print.attribute.IntegerSyntax"/>
     <fullyQualifiedTypeName name="java.util.List"/>
@@ -59,4 +58,5 @@
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 </qualifiedTypeNameHistroy>

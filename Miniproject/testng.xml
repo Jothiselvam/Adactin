@@ -2,14 +2,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-	  <groups>
-		  <run>
-			  <include name="a"></include>
-			  
-		  </run>
-	  </groups>
-    <classes>
-      <class name="com.Miniproject.TestNG_Annotations"/>
-    </classes>
+	  <parameter name="Student Name" value="Sai Arudra"></parameter>
+	  <parameter name="CGPA" value="9.5"></parameter>
+	  <classes>
+		  <class name="com.Miniproject.Parameterized_Test"></class>
+	  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

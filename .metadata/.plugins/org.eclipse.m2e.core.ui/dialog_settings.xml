@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Admin\eclipse-workspace\Selenium"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -25,6 +26,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.Cucumber"/>
+			<item value="com.Cucumber_Project"/>
 			<item value="com"/>
 			<item value="com.Mini"/>
 			<item value="com.Miniproject"/>
@@ -33,6 +36,8 @@
 			<item value="com"/>
 		</list>
 		<list key="artifactId">
+			<item value="Cucumber"/>
+			<item value="Cucumber_Project"/>
 			<item value="Mini"/>
 			<item value="Miniproject"/>
 		</list>
